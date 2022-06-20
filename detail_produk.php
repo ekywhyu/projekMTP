@@ -1,6 +1,6 @@
 <?php
 
-$konek = mysqli_connect('localhost','root','', 'tokosembako');
+$konek = mysqli_connect('127.0.0.1','root','', 'tokosembako');
 
 ?>
 <!DOCTYPE html>
@@ -118,6 +118,8 @@ $konek = mysqli_connect('localhost','root','', 'tokosembako');
                     <div class="col-sm-6">
                       <div class="form-group">
                         <label>Nama Anda <small>*</small></label>
+						<!-- hidden id -->
+						<input type="hidden" name="pid" value="<?= $_GET['pid'] ?>">
                         <input name="onama" class="form-control" type="text" placeholder="Masukkan Nama" required="">
                       </div>
                       </th>

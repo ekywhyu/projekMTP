@@ -1,6 +1,6 @@
 <?php
 
-$konek = mysqli_connect('localhost','root','', 'kerjapraktek');
+$konek = mysqli_connect('127.0.0.1','root','', 'kerjapraktek');
 
 ?>
 <!DOCTYPE html>
