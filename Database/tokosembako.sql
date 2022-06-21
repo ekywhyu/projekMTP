@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: 11 Jun 2022 pada 10.15
+-- Generation Time: 21 Jun 2022 pada 12.47
 -- Versi Server: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -97,7 +97,18 @@ CREATE TABLE `produk` (
 --
 
 INSERT INTO `produk` (`pid`, `pfoto`, `pnama`, `pharga`, `pjumlah`, `pdeskripsi`) VALUES
-(3, '629-9221b8a7e5d4514893a83252b1a658a3.jpg', 'Minyak Goreng Fortune', '11.500', 20, 'isi 1 liter');
+(4, '563-Gula_Pasir_GMP_1_Sak_50_Kg.jpg', 'Gula Pasir', '720.000', 20, 'setiap produk sebanyak 1 sak'),
+(5, '539-rojolele_rojolele-beras--50-kg-_full02.jpg', 'Beras', '310.000', 20, 'setiap produk 1 sak'),
+(6, '6-8189eca1854fbfbad3ed956983c34877.jpg', 'terigu', '220.000', 20, 'setiap produk 1sak'),
+(7, '923-bimoli_bimoli-jerigen-minyak-goreng--5-l-_full03 (1).jpg', 'Minyak Goreng', '320.000', 20, 'setiap produk sebanyak 1 gen'),
+(8, '57-Garam_Cap_Kapal_250GR.jpg', 'garam', '230.000', 20, 'setiap produk sebanyak 1 dus'),
+(9, '912-indomie.jpg', 'indomie', '112.000', 20, 'setiap produk sebanyak 1dus'),
+(10, '246-fruitamin.jpg', 'frutamin', '35.000', 20, 'setiap produk sebanyak 1dus'),
+(11, '59-coco bit.jpg', 'coco bit', '35.000', 20, 'setiap produk sebanyak 1dus'),
+(12, '374-aleale.jpg', 'ale-ale', '35.000', 20, 'setiap produk sebanyak 1dus'),
+(13, '248-fanta.jpg', 'fanta', '125.000', 20, 'setiap produk sebanyak 1dus'),
+(14, '735-sprite.jpg', 'sprite', '125.000', 20, 'setiap produk sebanyak 1dus'),
+(15, '721-cocacola.jpg', 'coca-cola', '125.000', 20, 'setiap produk sebanyak 1dus');
 
 --
 -- Indexes for dumped tables
@@ -136,7 +147,7 @@ ALTER TABLE `produk`
 -- AUTO_INCREMENT for table `produk`
 --
 ALTER TABLE `produk`
-  MODIFY `pid` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `pid` int(255) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
 --
 -- Ketidakleluasaan untuk tabel pelimpahan (Dumped Tables)
 --
